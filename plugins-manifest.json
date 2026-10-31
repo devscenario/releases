@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T18:33:24Z",
+  "updatedAt": "2026-10-31T18:50:30Z",
   "plugins": [
+    {
+      "id": "network",
+      "name": "Network",
+      "version": "1.3.10",
+      "description": "Network logs and mock response tools via in-app interceptor.",
+      "category": "NETWORK",
+      "icon": "🌐",
+      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-network-v1.3.10/plugin-network-1.3.10.jar",
+      "sha256": "b64326042aabd917d3b7540c9c68a2d14c111a712fb5524fcdae177859ba2fa6",
+      "size": 1074567,
+      "minAppVersion": "0.9.4",
+      "dependencies": [],
+      "releaseNotes": "The view and mock switches use the app's glass lens, which slides to the selected option.",
+      "publishedAt": "2026-10-31T18:44:23.852398705Z"
+    },
     {
       "id": "webhooks",
       "name": "Webhooks",
@@ -48,21 +63,6 @@
       "publishedAt": "2026-10-28T18:27:53.047180420Z"
     },
     {
-      "id": "network",
-      "name": "Network",
-      "version": "1.3.9",
-      "description": "Network logs and mock response tools via in-app interceptor.",
-      "category": "NETWORK",
-      "icon": "🌐",
-      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-network-v1.3.9/plugin-network-1.3.9.jar",
-      "sha256": "32b75b43f96da2788c6fe2a466ccb50e21e2409f17d05de72b18b7e559c8a862",
-      "size": 958027,
-      "minAppVersion": "0.9.4",
-      "dependencies": [],
-      "releaseNotes": "The view and mock switches use the app's glass lens, which slides to the selected option.",
-      "publishedAt": "2026-10-28T18:27:49.763893498Z"
-    },
-    {
       "id": "accessibility",
       "name": "Accessibility",
       "version": "1.2.5",
@@ -93,36 +93,6 @@
       "publishedAt": "2026-10-26T11:19:03.635848531Z"
     },
     {
-      "id": "zephyr",
-      "name": "Zephyr",
-      "version": "1.0.2",
-      "description": "Send scenario results to Zephyr Scale test cycles, from this computer and from CI.",
-      "category": "TESTING",
-      "icon": "🧪",
-      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-zephyr-v1.0.2/plugin-zephyr-1.0.2.jar",
-      "sha256": "2b8e9753a5678513411e153e999d0cc26017a5e274731018e6d0d95d5e828438",
-      "size": 603076,
-      "minAppVersion": "0.9.4",
-      "dependencies": [],
-      "releaseNotes": "The switches use the app's glass lens, which slides to the selected option.",
-      "publishedAt": "2026-10-26T11:18:53.266529922Z"
-    },
-    {
-      "id": "network",
-      "name": "Network",
-      "version": "1.3.8",
-      "description": "Network logs and mock response tools via in-app interceptor.",
-      "category": "NETWORK",
-      "icon": "🌐",
-      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-network-v1.3.8/plugin-network-1.3.8.jar",
-      "sha256": "ced25ba7a160ec9833aacac1bd74f9decd0ee5e8eb44a7288c30b1624929f538",
-      "size": 965578,
-      "minAppVersion": "0.9.4",
-      "dependencies": [],
-      "releaseNotes": "The view and mock switches use the app's glass lens, which slides to the selected option.",
-      "publishedAt": "2026-10-26T11:18:23.057105113Z"
-    },
-    {
       "id": "firebase",
       "name": "Firebase",
       "version": "1.2.5",
@@ -136,51 +106,6 @@
       "dependencies": [],
       "releaseNotes": "Matches the new Dev Scenario look: rounded menus and controls.",
       "publishedAt": "2026-10-26T04:46:56.390210781Z"
-    },
-    {
-      "id": "mcp",
-      "name": "MCP",
-      "version": "0.2.14",
-      "description": "Let AI agents (Claude Code, Cursor, …) inspect devices and write, run and triage E2E flows over MCP.",
-      "category": "INTEGRATIONS",
-      "icon": "🤖",
-      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-mcp-v0.2.14/plugin-mcp-0.2.14.jar",
-      "sha256": "7e6930fd2e3f3be721154de8680061ae94cc3051e7c9fc587f77b600c4fe507a",
-      "size": 743710,
-      "minAppVersion": "0.9.3",
-      "dependencies": [],
-      "releaseNotes": "Rules v12: scenario and chain watchers with max runs, number and variable math, device contacts.",
-      "publishedAt": "2026-10-26T04:47:05.745720201Z"
-    },
-    {
-      "id": "webhooks",
-      "name": "Webhooks",
-      "version": "1.0.5",
-      "description": "Forward run completions and crashes to Slack, Microsoft Teams, Discord and other webhooks.",
-      "category": "INTEGRATIONS",
-      "icon": "🔔",
-      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-webhooks-v1.0.5/plugin-webhooks-1.0.5.jar",
-      "sha256": "797c5ee26481110c7c6171ced5230b45ff4599a07c99a396d9613f3895383acd",
-      "size": 5261902,
-      "minAppVersion": "0.9.3",
-      "dependencies": [],
-      "releaseNotes": "Matches the new Dev Scenario look: the new checkboxes and menus in the webhook editor.",
-      "publishedAt": "2026-10-26T04:46:15.844058360Z"
-    },
-    {
-      "id": "accessibility",
-      "name": "Accessibility",
-      "version": "1.2.4",
-      "description": "WCAG 2.1 compliance scanner with visual overlay and score reporting.",
-      "category": "TESTING",
-      "icon": "♿",
-      "jarUrl": "https://github.com/devscenario/devtool-releases/releases/download/plugin-accessibility-v1.2.4/plugin-accessibility-1.2.4.jar",
-      "sha256": "c5e1cab02f50e23745525fe3b0b64c07a694d08375260adb6a7eb8db167ceb22",
-      "size": 247059,
-      "minAppVersion": "0.9.3",
-      "dependencies": [],
-      "releaseNotes": "Matches the new Dev Scenario look and its new fonts.",
-      "publishedAt": "2026-10-26T04:45:52.481097815Z"
     }
   ]
 }
