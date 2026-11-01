@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T18:01:37Z",
+  "updatedAt": "2026-11-01T18:30:08Z",
   "plugins": [
+    {
+      "id": "mcp",
+      "name": "MCP",
+      "version": "0.2.16",
+      "description": "Let AI agents (Claude Code, Cursor, …) inspect devices and write, run and triage E2E flows over MCP.",
+      "category": "INTEGRATIONS",
+      "icon": "🤖",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-mcp-v0.2.16/plugin-mcp-0.2.16.jar",
+      "sha256": "f98b40b9744cadabaac238ec3737b3f5fc8be9f67e20dfb0a96e76397fbdd5a2",
+      "size": 745717,
+      "minAppVersion": "0.9.9",
+      "dependencies": [],
+      "releaseNotes": "Works with Dev Scenario 0.9.9 and later.",
+      "publishedAt": "2026-11-01T18:25:11.892221180Z"
+    },
     {
       "id": "network",
       "name": "Network",
