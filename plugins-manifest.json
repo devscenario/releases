@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T18:30:08Z",
+  "updatedAt": "2026-11-01T18:41:42Z",
   "plugins": [
+    {
+      "id": "network",
+      "name": "Network",
+      "version": "1.3.11",
+      "description": "Network logs and mock response tools via in-app interceptor.",
+      "category": "NETWORK",
+      "icon": "🌐",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-network-v1.3.11/plugin-network-1.3.11.jar",
+      "sha256": "3f6e368934154eb0bcc1d7a488712a27a38d093eb1d7ae51003f98340f6bd7b7",
+      "size": 1074569,
+      "minAppVersion": "0.9.9",
+      "dependencies": [],
+      "releaseNotes": "Works with Dev Scenario 0.9.9 and later.",
+      "publishedAt": "2026-11-01T18:34:37.162885757Z"
+    },
     {
       "id": "mcp",
       "name": "MCP",
