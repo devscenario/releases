@@ -1,7 +1,52 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T18:41:42Z",
+  "updatedAt": "2026-11-03T17:35:38Z",
   "plugins": [
+    {
+      "id": "zephyr",
+      "name": "Zephyr",
+      "version": "1.0.4",
+      "description": "Send scenario results to Zephyr Scale test cycles, from this computer and from CI.",
+      "category": "TESTING",
+      "icon": "🧪",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-zephyr-v1.0.4/plugin-zephyr-1.0.4.jar",
+      "sha256": "aadcb7ec026e95ac631f17d6687973af9f2601946d9ace0ddbb240d465dc6a9d",
+      "size": 603167,
+      "minAppVersion": "0.9.4",
+      "dependencies": [],
+      "releaseNotes": "The switches use the app's glass lens, which slides to the selected option.",
+      "publishedAt": "2026-11-03T17:29:42.786723612Z"
+    },
+    {
+      "id": "mcp",
+      "name": "MCP",
+      "version": "0.2.17",
+      "description": "Let AI agents (Claude Code, Cursor, …) inspect devices and write, run and triage E2E flows over MCP.",
+      "category": "INTEGRATIONS",
+      "icon": "🤖",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-mcp-v0.2.17/plugin-mcp-0.2.17.jar",
+      "sha256": "c83bd77b0475c6c4db73cb779c86bc04fbc5af8e054c4f97e5721e3d09c1f28a",
+      "size": 751067,
+      "minAppVersion": "0.9.9",
+      "dependencies": [],
+      "releaseNotes": "Works with Dev Scenario 0.9.9 and later.",
+      "publishedAt": "2026-11-03T17:28:46.047018633Z"
+    },
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "version": "1.2.6",
+      "description": "Firebase App Distribution and Remote Config workbench.",
+      "category": "FIREBASE",
+      "icon": "🚀",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-firebase-v1.2.6/plugin-firebase-1.2.6.jar",
+      "sha256": "988fd9b1a1e43db65db5d911b4d4191b718c5383a1883213a50e365089b5d0fc",
+      "size": 519637,
+      "minAppVersion": "0.9.3",
+      "dependencies": [],
+      "releaseNotes": "Matches the new Dev Scenario look: rounded menus and controls.",
+      "publishedAt": "2026-11-03T17:28:12.926846163Z"
+    },
     {
       "id": "network",
       "name": "Network",
