@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T11:26:19Z",
+  "updatedAt": "2026-11-07T11:35:29Z",
   "plugins": [
+    {
+      "id": "mcp",
+      "name": "MCP",
+      "version": "0.9.3",
+      "description": "Let AI agents (Claude Code, Cursor, …) inspect devices and write, run and triage E2E flows over MCP.",
+      "category": "INTEGRATIONS",
+      "icon": "🤖",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-mcp-v0.9.3/plugin-mcp-0.9.3.jar",
+      "sha256": "7aade843a803635cb6ca9b6857025179b93292ae4a5a3a1f0146832334b23e00",
+      "size": 937796,
+      "minAppVersion": "0.9.15",
+      "dependencies": [],
+      "releaseNotes": "Agents save scenarios into folders, tag them for their suites, and manage suites, tags and run presets when asked. The assistant on Copilot uses your account's own models, with effort per model. Works with Dev Scenario 0.9.15 and later.",
+      "publishedAt": "2026-11-07T11:29:52.309711054Z"
+    },
     {
       "id": "network",
       "name": "Network",
