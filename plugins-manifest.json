@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T16:13:40Z",
+  "updatedAt": "2026-11-08T16:19:24Z",
   "plugins": [
     {
       "id": "deep_links",
@@ -46,21 +46,6 @@
       "dependencies": [],
       "releaseNotes": "Redesigned hosts column and call inspector, a network waterfall, a cURL dialog that can replay a call, and a compact mock editor. Works with Dev Scenario 0.9.16 and later.",
       "publishedAt": "2026-11-08T16:08:55.110397079Z"
-    },
-    {
-      "id": "zephyr",
-      "name": "Zephyr",
-      "version": "1.0.7",
-      "description": "Send scenario results to Zephyr Scale test cycles, from this computer and from CI.",
-      "category": "TESTING",
-      "icon": "🧪",
-      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-zephyr-v1.0.7/plugin-zephyr-1.0.7.jar",
-      "sha256": "ffe1d6480f2189202aad20bb002bc96167fdad5c8e31e26ccbd8071b5ec7a221",
-      "size": 602380,
-      "minAppVersion": "0.9.16",
-      "dependencies": [],
-      "releaseNotes": "Create scenario offers only the chosen module's folders. Works with Dev Scenario 0.9.16 and later.",
-      "publishedAt": "2026-11-08T16:09:29.894005360Z"
     },
     {
       "id": "firebase",
