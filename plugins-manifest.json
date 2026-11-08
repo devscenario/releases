@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T11:43:28Z",
+  "updatedAt": "2026-11-08T04:57:39Z",
   "plugins": [
     {
       "id": "zephyr",
@@ -91,21 +91,6 @@
       "dependencies": [],
       "releaseNotes": "Matches the new Dev Scenario look: rounded menus and controls.",
       "publishedAt": "2026-11-04T12:08:10.857168883Z"
-    },
-    {
-      "id": "zephyr",
-      "name": "Zephyr",
-      "version": "1.0.5",
-      "description": "Send scenario results to Zephyr Scale test cycles, from this computer and from CI.",
-      "category": "TESTING",
-      "icon": "🧪",
-      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-zephyr-v1.0.5/plugin-zephyr-1.0.5.jar",
-      "sha256": "31f2e92ae018f65ee8d080c2bf4f25b91028bbf178de30b44879b09f5c71e51f",
-      "size": 601976,
-      "minAppVersion": "0.9.10",
-      "dependencies": [],
-      "releaseNotes": "The switches use the app's glass lens, which slides to the selected option.",
-      "publishedAt": "2026-11-04T12:08:31.236471994Z"
     }
   ]
 }
