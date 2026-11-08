@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T18:14:15Z",
+  "updatedAt": "2026-11-08T19:30:49Z",
   "plugins": [
+    {
+      "id": "network",
+      "name": "Network",
+      "version": "1.3.16",
+      "description": "Network logs and mock response tools via in-app interceptor.",
+      "category": "NETWORK",
+      "icon": "🌐",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-network-v1.3.16/plugin-network-1.3.16.jar",
+      "sha256": "a6dbb847d822d2826974bb275fe262040b2f7e657d04fbde649ce5f9cc3abb42",
+      "size": 1132333,
+      "minAppVersion": "0.9.16",
+      "dependencies": [],
+      "releaseNotes": "Redesigned hosts column and call inspector, a network waterfall, a cURL dialog that can replay a call, and a compact mock editor. Works with Dev Scenario 0.9.16 and later.",
+      "publishedAt": "2026-11-08T19:24:57.023174918Z"
+    },
     {
       "id": "network",
       "name": "Network",
