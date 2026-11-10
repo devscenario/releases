@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T19:30:49Z",
+  "updatedAt": "2026-11-10T15:07:39Z",
   "plugins": [
+    {
+      "id": "zephyr",
+      "name": "Zephyr",
+      "version": "1.0.8",
+      "description": "Send scenario results to Zephyr Scale test cycles, from this computer and from CI.",
+      "category": "TESTING",
+      "icon": "🧪",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-zephyr-v1.0.8/plugin-zephyr-1.0.8.jar",
+      "sha256": "06b570fc0ce4a37b16e23b56604e2d5ba9987e352da32dd82805c43df3e64ff0",
+      "size": 612971,
+      "minAppVersion": "0.9.19",
+      "dependencies": [],
+      "releaseNotes": "Simpler Setup; results always go as Pass or Fail. Works with Dev Scenario 0.9.19 and later.",
+      "publishedAt": "2026-11-10T15:00:35.015096902Z"
+    },
+    {
+      "id": "artifactory",
+      "name": "Artifactory",
+      "version": "1.0.0",
+      "description": "Install app builds from Nexus on a device, then run a suite on them.",
+      "category": "TESTING",
+      "icon": "📦",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-artifactory-v1.0.0/plugin-artifactory-1.0.0.jar",
+      "sha256": "59dbead62b2b9371fde2f5a4781bc4a36d0a762d3b826f837bdc5ada6c87f68b",
+      "size": 298751,
+      "minAppVersion": "0.9.19",
+      "dependencies": [],
+      "releaseNotes": "First release: Nexus 3 sources saved in the project, versions newest first, install on Android and iOS.",
+      "publishedAt": "2026-11-10T14:59:32.501027330Z"
+    },
     {
       "id": "network",
       "name": "Network",
