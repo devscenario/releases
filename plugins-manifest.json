@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T15:34:36Z",
+  "updatedAt": "2026-11-11T15:48:25Z",
   "plugins": [
+    {
+      "id": "accessibility",
+      "name": "Accessibility",
+      "version": "1.2.7",
+      "description": "WCAG 2.1 compliance scanner with visual overlay and score reporting.",
+      "category": "TESTING",
+      "icon": "♿",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-accessibility-v1.2.7/plugin-accessibility-1.2.7.jar",
+      "sha256": "8cb7c4e1751af98f4bd287c4d261a0c42333f1ae0638c2e8408492db54526b76",
+      "size": 245361,
+      "minAppVersion": "0.9.10",
+      "dependencies": [],
+      "releaseNotes": "Matches the new Dev Scenario look and its new fonts.",
+      "publishedAt": "2026-11-11T15:44:53.246405643Z"
+    },
     {
       "id": "firebase",
       "name": "Firebase",
