@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T15:07:39Z",
+  "updatedAt": "2026-11-11T15:34:36Z",
   "plugins": [
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "version": "1.2.9",
+      "description": "Firebase App Distribution and Remote Config workbench.",
+      "category": "FIREBASE",
+      "icon": "🚀",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-firebase-v1.2.9/plugin-firebase-1.2.9.jar",
+      "sha256": "14259426dd70eb0c462144eaa1bd1a61022c4ebbaed1894ef6976512f34e3cb4",
+      "size": 530699,
+      "minAppVersion": "0.9.16",
+      "dependencies": [],
+      "releaseNotes": "Matches the new Dev Scenario look: rounded menus and controls.",
+      "publishedAt": "2026-11-11T15:28:45.144011264Z"
+    },
     {
       "id": "zephyr",
       "name": "Zephyr",
@@ -48,21 +63,6 @@
       "publishedAt": "2026-11-08T19:24:57.023174918Z"
     },
     {
-      "id": "network",
-      "name": "Network",
-      "version": "1.3.15",
-      "description": "Network logs and mock response tools via in-app interceptor.",
-      "category": "NETWORK",
-      "icon": "🌐",
-      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-network-v1.3.15/plugin-network-1.3.15.jar",
-      "sha256": "ef1034540e691c90f799c00627e58ad26e06439b738bf19269b727f62caa5179",
-      "size": 1132329,
-      "minAppVersion": "0.9.16",
-      "dependencies": [],
-      "releaseNotes": "Redesigned hosts column and call inspector, a network waterfall, a cURL dialog that can replay a call, and a compact mock editor. Works with Dev Scenario 0.9.16 and later.",
-      "publishedAt": "2026-11-08T18:08:10.891759362Z"
-    },
-    {
       "id": "deep_links",
       "name": "Deep Links",
       "version": "1.2.8",
@@ -91,36 +91,6 @@
       "dependencies": [],
       "releaseNotes": "Initial release: scan an app repository for its UI tests, browse them by package with their tags, and migrate them with your AI agent; Migrate opens the prompt in the in-app assistant.",
       "publishedAt": "2026-11-08T16:09:05.060408556Z"
-    },
-    {
-      "id": "network",
-      "name": "Network",
-      "version": "1.3.14",
-      "description": "Network logs and mock response tools via in-app interceptor.",
-      "category": "NETWORK",
-      "icon": "🌐",
-      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-network-v1.3.14/plugin-network-1.3.14.jar",
-      "sha256": "0b3359c69d2fa432ebfc32d0f3ca884a76f5e959afd1ca87891ee468b0ebcd65",
-      "size": 1132327,
-      "minAppVersion": "0.9.16",
-      "dependencies": [],
-      "releaseNotes": "Redesigned hosts column and call inspector, a network waterfall, a cURL dialog that can replay a call, and a compact mock editor. Works with Dev Scenario 0.9.16 and later.",
-      "publishedAt": "2026-11-08T16:08:55.110397079Z"
-    },
-    {
-      "id": "zephyr",
-      "name": "Zephyr",
-      "version": "1.0.7",
-      "description": "Send scenario results to Zephyr Scale test cycles, from this computer and from CI.",
-      "category": "TESTING",
-      "icon": "🧪",
-      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-zephyr-v1.0.7/plugin-zephyr-1.0.7.jar",
-      "sha256": "ffe1d6480f2189202aad20bb002bc96167fdad5c8e31e26ccbd8071b5ec7a221",
-      "size": 602380,
-      "minAppVersion": "0.9.16",
-      "dependencies": [],
-      "releaseNotes": "Create scenario offers only the chosen module's folders. Works with Dev Scenario 0.9.16 and later.",
-      "publishedAt": "2026-11-08T16:09:29.894005360Z"
     },
     {
       "id": "firebase",
@@ -153,51 +123,6 @@
       "publishedAt": "2026-11-08T16:08:40.880151445Z"
     },
     {
-      "id": "zephyr",
-      "name": "Zephyr",
-      "version": "1.0.6",
-      "description": "Send scenario results to Zephyr Scale test cycles, from this computer and from CI.",
-      "category": "TESTING",
-      "icon": "🧪",
-      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-zephyr-v1.0.6/plugin-zephyr-1.0.6.jar",
-      "sha256": "89247ce1dc4b9e4cbcba025401ce06025b164cdd487d7d9be92545bbe67a69c2",
-      "size": 602131,
-      "minAppVersion": "0.9.15",
-      "dependencies": [],
-      "releaseNotes": "Create scenario offers only the chosen module's folders. Works with Dev Scenario 0.9.15 and later.",
-      "publishedAt": "2026-11-07T11:38:49.758175560Z"
-    },
-    {
-      "id": "mcp",
-      "name": "MCP",
-      "version": "0.9.3",
-      "description": "Let AI agents (Claude Code, Cursor, …) inspect devices and write, run and triage E2E flows over MCP.",
-      "category": "INTEGRATIONS",
-      "icon": "🤖",
-      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-mcp-v0.9.3/plugin-mcp-0.9.3.jar",
-      "sha256": "7aade843a803635cb6ca9b6857025179b93292ae4a5a3a1f0146832334b23e00",
-      "size": 937796,
-      "minAppVersion": "0.9.15",
-      "dependencies": [],
-      "releaseNotes": "Agents save scenarios into folders, tag them for their suites, and manage suites, tags and run presets when asked. The assistant on Copilot uses your account's own models, with effort per model. Works with Dev Scenario 0.9.15 and later.",
-      "publishedAt": "2026-11-07T11:29:52.309711054Z"
-    },
-    {
-      "id": "network",
-      "name": "Network",
-      "version": "1.3.13",
-      "description": "Network logs and mock response tools via in-app interceptor.",
-      "category": "NETWORK",
-      "icon": "🌐",
-      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-network-v1.3.13/plugin-network-1.3.13.jar",
-      "sha256": "1eda30b0db8f3eb55e1a71de9b7694950c4cbd64f9d902829f4e16b3093acb6d",
-      "size": 1134130,
-      "minAppVersion": "0.9.15",
-      "dependencies": [],
-      "releaseNotes": "Redesigned hosts column and call inspector, a network waterfall, a cURL dialog that can replay a call, and a compact mock editor. Works with Dev Scenario 0.9.15 and later.",
-      "publishedAt": "2026-11-07T11:20:30.281027898Z"
-    },
-    {
       "id": "accessibility",
       "name": "Accessibility",
       "version": "1.2.6",
@@ -211,36 +136,6 @@
       "dependencies": [],
       "releaseNotes": "Matches the new Dev Scenario look and its new fonts.",
       "publishedAt": "2026-11-04T12:08:21.743525873Z"
-    },
-    {
-      "id": "deep_links",
-      "name": "Deep Links",
-      "version": "1.2.7",
-      "description": "Test deep links, app links, and universal links with variable templates.",
-      "category": "TESTING",
-      "icon": "🔗",
-      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-deep_links-v1.2.7/plugin-deep_links-1.2.7.jar",
-      "sha256": "14de28a50f00e7416f5cd30f4e5e13449749c018f88a0f4babc7977919917218",
-      "size": 199501,
-      "minAppVersion": "0.9.10",
-      "dependencies": [],
-      "releaseNotes": "The platform switch uses the app's glass lens, which slides to the selected option.",
-      "publishedAt": "2026-11-04T12:08:11.871205372Z"
-    },
-    {
-      "id": "firebase",
-      "name": "Firebase",
-      "version": "1.2.7",
-      "description": "Firebase App Distribution and Remote Config workbench.",
-      "category": "FIREBASE",
-      "icon": "🚀",
-      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-firebase-v1.2.7/plugin-firebase-1.2.7.jar",
-      "sha256": "dd3b350fc5329a50d6d6b0abac2e2a141b80ca751fa6dd0bd54bcf8aa4ff0d0a",
-      "size": 518026,
-      "minAppVersion": "0.9.10",
-      "dependencies": [],
-      "releaseNotes": "Matches the new Dev Scenario look: rounded menus and controls.",
-      "publishedAt": "2026-11-04T12:08:10.857168883Z"
     }
   ]
 }
