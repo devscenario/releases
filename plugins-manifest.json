@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T15:48:25Z",
+  "updatedAt": "2026-11-11T17:05:49Z",
   "plugins": [
+    {
+      "id": "artifactory",
+      "name": "Artifactory",
+      "version": "1.0.1",
+      "description": "Install app builds from Nexus on a device, then run a suite on them.",
+      "category": "TESTING",
+      "icon": "📦",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-artifactory-v1.0.1/plugin-artifactory-1.0.1.jar",
+      "sha256": "a54079cf55917db72b30370b7fd6d166f82568cdf99bf404a5014cfa543b0f56",
+      "size": 328260,
+      "minAppVersion": "0.9.19",
+      "dependencies": [],
+      "releaseNotes": "First release: Nexus 3 sources saved in the project, versions newest first, install on Android and iOS.",
+      "publishedAt": "2026-11-11T16:59:37.112110892Z"
+    },
     {
       "id": "accessibility",
       "name": "Accessibility",
@@ -108,21 +123,6 @@
       "publishedAt": "2026-11-08T16:09:05.060408556Z"
     },
     {
-      "id": "firebase",
-      "name": "Firebase",
-      "version": "1.2.8",
-      "description": "Firebase App Distribution and Remote Config workbench.",
-      "category": "FIREBASE",
-      "icon": "🚀",
-      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-firebase-v1.2.8/plugin-firebase-1.2.8.jar",
-      "sha256": "2fe16371eb295f7e01f44b23593d2dab7c015adc41d537c14b9218907270524b",
-      "size": 517287,
-      "minAppVersion": "0.9.16",
-      "dependencies": [],
-      "releaseNotes": "Matches the new Dev Scenario look: rounded menus and controls.",
-      "publishedAt": "2026-11-08T16:08:43.814062447Z"
-    },
-    {
       "id": "mcp",
       "name": "MCP",
       "version": "0.9.4",
@@ -136,21 +136,6 @@
       "dependencies": [],
       "releaseNotes": "Agents save scenarios into folders, tag them for their suites, and manage suites, tags and run presets when asked. The assistant on Copilot uses your account's own models, with effort per model. Other plugins can hand the assistant a prompt to send (Migration's Migrate). Works with Dev Scenario 0.9.16 and later.",
       "publishedAt": "2026-11-08T16:08:40.880151445Z"
-    },
-    {
-      "id": "accessibility",
-      "name": "Accessibility",
-      "version": "1.2.6",
-      "description": "WCAG 2.1 compliance scanner with visual overlay and score reporting.",
-      "category": "TESTING",
-      "icon": "♿",
-      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-accessibility-v1.2.6/plugin-accessibility-1.2.6.jar",
-      "sha256": "6e6aad1b59005be97c402c40f302f37d4347b9faf99b3e5809564ac9b605bf5c",
-      "size": 245622,
-      "minAppVersion": "0.9.10",
-      "dependencies": [],
-      "releaseNotes": "Matches the new Dev Scenario look and its new fonts.",
-      "publishedAt": "2026-11-04T12:08:21.743525873Z"
     }
   ]
 }
