@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T17:05:49Z",
+  "updatedAt": "2026-11-12T07:04:54Z",
   "plugins": [
+    {
+      "id": "artifactory",
+      "name": "Artifactory",
+      "version": "1.0.2",
+      "description": "Install app builds from Nexus on a device, then run a suite on them.",
+      "category": "TESTING",
+      "icon": "📦",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-artifactory-v1.0.2/plugin-artifactory-1.0.2.jar",
+      "sha256": "b136807c741683fc181c05c6c0f8b9c220ca2b8481437b6e7c2f51f6e4906ba9",
+      "size": 328778,
+      "minAppVersion": "0.9.19",
+      "dependencies": [],
+      "releaseNotes": "A device .ipa now installs on an iOS simulator on Macs with Apple silicon, converted on the way (not App Store / TestFlight downloads). The converted copy turns on Dev Scenario's in-app SDK and network interceptor when the build includes them.",
+      "publishedAt": "2026-11-12T07:01:28.529033290Z"
+    },
     {
       "id": "artifactory",
       "name": "Artifactory",
