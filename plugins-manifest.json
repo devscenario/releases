@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T05:41:33Z",
+  "updatedAt": "2026-11-14T05:44:25Z",
   "plugins": [
+    {
+      "id": "mcp",
+      "name": "AI Assistant",
+      "version": "0.9.5",
+      "description": "An in-app AI assistant, plus an MCP server for Claude Code, Cursor and Copilot: inspect devices and write, run and triage E2E flows.",
+      "category": "INTEGRATIONS",
+      "icon": "🤖",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-mcp-v0.9.5/plugin-mcp-0.9.5.jar",
+      "sha256": "bf9e0569c00edea511b8d8115c1a538ce8f7c46daa1415f7fd29aeaee690a8bc",
+      "size": 974347,
+      "minAppVersion": "0.9.16",
+      "dependencies": [],
+      "releaseNotes": "Now called AI Assistant. It can change files in your app's source folders when you ask (Edit app source, on by default in its settings; never .git, .claude, .idea or .vscode), and a project kept in a Git repository uses that repository as a source folder. Dialogs, menus and buttons match the new Dev Scenario look.",
+      "publishedAt": "2026-11-14T05:37:50.585167695Z"
+    },
     {
       "id": "zephyr",
       "name": "Zephyr",
