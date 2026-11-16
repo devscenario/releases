@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T05:44:25Z",
+  "updatedAt": "2026-11-16T21:28:34Z",
   "plugins": [
+    {
+      "id": "accessibility",
+      "name": "Accessibility",
+      "version": "1.2.9",
+      "description": "WCAG 2.1 compliance scanner with visual overlay and score reporting.",
+      "category": "TESTING",
+      "icon": "♿",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-accessibility-v1.2.9/plugin-accessibility-1.2.9.jar",
+      "sha256": "00836e768dac2fa2b7b72909fb5fbbbebfda4b645e632c11dd091d6535217f2f",
+      "size": 243368,
+      "minAppVersion": "0.9.23",
+      "dependencies": [],
+      "releaseNotes": "On Windows and Linux, iOS targets and the iOS history filter are hidden: iOS simulators need a Mac. Works with Dev Scenario 0.9.23 and later.",
+      "publishedAt": "2026-11-16T21:22:44.946898217Z"
+    },
     {
       "id": "mcp",
       "name": "AI Assistant",
