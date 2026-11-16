@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T21:28:34Z",
+  "updatedAt": "2026-11-16T21:51:53Z",
   "plugins": [
+    {
+      "id": "network",
+      "name": "Network",
+      "version": "1.3.18",
+      "description": "Network logs and mock response tools via in-app interceptor.",
+      "category": "NETWORK",
+      "icon": "🌐",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-network-v1.3.18/plugin-network-1.3.18.jar",
+      "sha256": "7bbd1d4e7e17a0e3d9a3c4187bddbb236b8f4325bb0012d042ffb5a71b166e0f",
+      "size": 1270305,
+      "minAppVersion": "0.9.24",
+      "dependencies": [],
+      "releaseNotes": "Replacers send a call to the real server with its headers or body changed. Captured response bodies up to 1 MB, a note when the app cut one, and Format JSON on cut bodies. The mock and Replacer dialogs move and resize. If the app's interceptor can't apply replacers (Flutter, older libraries), the call says so. On Windows and Linux the interceptor setup shows Android only. Works with Dev Scenario 0.9.24 and later.",
+      "publishedAt": "2026-11-16T21:47:16.646511344Z"
+    },
     {
       "id": "accessibility",
       "name": "Accessibility",
