@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T13:25:30Z",
+  "updatedAt": "2026-11-18T14:27:45Z",
   "plugins": [
+    {
+      "id": "mcp",
+      "name": "AI Assistant",
+      "version": "0.9.7",
+      "description": "An in-app AI assistant, plus an MCP server for Claude Code, Copilot CLI, Codex and Gemini CLI: inspect devices and write, run and triage E2E flows.",
+      "category": "INTEGRATIONS",
+      "icon": "🤖",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-mcp-v0.9.7/plugin-mcp-0.9.7.jar",
+      "sha256": "b596bf1b3101015435e1752ac8086b59ea0a03bdc8ce7790b810014048f1cf7c",
+      "size": 1087831,
+      "minAppVersion": "0.9.26",
+      "dependencies": [],
+      "releaseNotes": "Connect finds Copilot CLI, Codex and Gemini CLI installed with npm under nvm, Volta or fnm. Claude Code's Connect works while another agent is picked in the assistant. Works with Dev Scenario 0.9.26 and later.",
+      "publishedAt": "2026-11-18T14:23:55.598285349Z"
+    },
     {
       "id": "network",
       "name": "Network",
