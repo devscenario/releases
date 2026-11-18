@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T13:14:08Z",
+  "updatedAt": "2026-11-18T13:25:30Z",
   "plugins": [
+    {
+      "id": "network",
+      "name": "Network",
+      "version": "1.3.19",
+      "description": "Network logs and mock response tools via in-app interceptor.",
+      "category": "NETWORK",
+      "icon": "🌐",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-network-v1.3.19/plugin-network-1.3.19.jar",
+      "sha256": "9d076b6dc666fa712fa089aaa4502af36b78c1aebb174a19d702d49943b7756a",
+      "size": 1270353,
+      "minAppVersion": "0.9.26",
+      "dependencies": [],
+      "releaseNotes": "Drag the hosts or details panel's edge under half its smallest width to fold it, or drag a folded panel's edge to open it; while a recording runs, its panel stays open. Resizing a panel follows the pointer smoothly. The note on a call whose replacer didn't apply now points to the latest Android, iOS or Flutter library. Works with Dev Scenario 0.9.26 and later.",
+      "publishedAt": "2026-11-18T13:19:35.742922687Z"
+    },
     {
       "id": "mcp",
       "name": "AI Assistant",
