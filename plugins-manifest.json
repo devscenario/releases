@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T17:56:40Z",
+  "updatedAt": "2026-11-20T18:06:50Z",
   "plugins": [
+    {
+      "id": "mcp",
+      "name": "AI Assistant",
+      "version": "0.9.10",
+      "description": "An in-app AI assistant, plus an MCP server for Claude Code, Copilot CLI, Codex and Gemini CLI: inspect devices and write, run and triage E2E flows.",
+      "category": "INTEGRATIONS",
+      "icon": "🤖",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-mcp-v0.9.10/plugin-mcp-0.9.10.jar",
+      "sha256": "243818104ed6fdfb030d146ab5b66511d7dddf3f96ca6bd4219944f50996c7bb",
+      "size": 1091798,
+      "minAppVersion": "0.9.27",
+      "dependencies": [],
+      "releaseNotes": "When Claude Code isn't signed in on this computer, the assistant says so and how to sign in (claude auth login) instead of showing the CLI's raw error, and Claude Code no longer shows as signed in. Works with Dev Scenario 0.9.27 and later.",
+      "publishedAt": "2026-11-20T18:00:49.040215688Z"
+    },
     {
       "id": "network",
       "name": "Network",
