@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T09:13:33Z",
+  "updatedAt": "2026-11-20T09:52:09Z",
   "plugins": [
+    {
+      "id": "network",
+      "name": "Network",
+      "version": "1.3.20",
+      "description": "Network logs and mock response tools via in-app interceptor.",
+      "category": "NETWORK",
+      "icon": "🌐",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-network-v1.3.20/plugin-network-1.3.20.jar",
+      "sha256": "42936c8256ff9d08352e84a60cb2ce153e5995ece9a9679a9b896f318288ae82",
+      "size": 1268229,
+      "minAppVersion": "0.9.27",
+      "dependencies": [],
+      "releaseNotes": "Drag the hosts or details panel's edge under half its smallest width to fold it, or drag a folded panel's edge to open it; while a recording runs, its panel stays open. Resizing a panel follows the pointer smoothly. The note on a call whose replacer didn't apply now points to the latest Android, iOS or Flutter library. Works with Dev Scenario 0.9.27 and later.",
+      "publishedAt": "2026-11-20T09:47:11.953817855Z"
+    },
     {
       "id": "accessibility",
       "name": "Accessibility",
