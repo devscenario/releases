@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T09:52:09Z",
+  "updatedAt": "2026-11-20T12:33:21Z",
   "plugins": [
+    {
+      "id": "mcp",
+      "name": "AI Assistant",
+      "version": "0.9.9",
+      "description": "An in-app AI assistant, plus an MCP server for Claude Code, Copilot CLI, Codex and Gemini CLI: inspect devices and write, run and triage E2E flows.",
+      "category": "INTEGRATIONS",
+      "icon": "🤖",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-mcp-v0.9.9/plugin-mcp-0.9.9.jar",
+      "sha256": "875a16aa43dd098c1bc7b27d69f87a3d3e5e3b7b49f240def9bc2ba4ff010ec2",
+      "size": 1091154,
+      "minAppVersion": "0.9.27",
+      "dependencies": [],
+      "releaseNotes": "Copilot CLI's own notices no longer show up at the start of a reply. When your organization's Copilot policy blocks MCP servers, the assistant says so: it has none of Dev Scenario's tools then. Works with Dev Scenario 0.9.27 and later.",
+      "publishedAt": "2026-11-20T12:27:41.048631698Z"
+    },
     {
       "id": "network",
       "name": "Network",
