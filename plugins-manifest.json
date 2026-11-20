@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T12:33:21Z",
+  "updatedAt": "2026-11-20T17:56:40Z",
   "plugins": [
+    {
+      "id": "network",
+      "name": "Network",
+      "version": "1.3.21",
+      "description": "Network logs and mock response tools via in-app interceptor.",
+      "category": "NETWORK",
+      "icon": "🌐",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-network-v1.3.21/plugin-network-1.3.21.jar",
+      "sha256": "89a1c8172c15c4af2c75478fe33823e4e3f426f41e3d03ea0d49c5dae4c14c89",
+      "size": 1286969,
+      "minAppVersion": "0.9.27",
+      "dependencies": [],
+      "releaseNotes": "Opening a rule whose response is an image or a very large body no longer freezes the app: an image shows as the picture, a body over 200,000 characters as its size, and Edit as text opens either anyway. Works with Dev Scenario 0.9.27 and later.",
+      "publishedAt": "2026-11-20T17:49:15.951485603Z"
+    },
     {
       "id": "mcp",
       "name": "AI Assistant",
