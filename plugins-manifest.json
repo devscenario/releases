@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T09:11:00Z",
+  "updatedAt": "2026-11-20T09:13:33Z",
   "plugins": [
+    {
+      "id": "accessibility",
+      "name": "Accessibility",
+      "version": "1.2.10",
+      "description": "WCAG 2.1 compliance scanner with visual overlay and score reporting.",
+      "category": "TESTING",
+      "icon": "♿",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-accessibility-v1.2.10/plugin-accessibility-1.2.10.jar",
+      "sha256": "8c81befdf322d32ded8c71db170903646446a1cee65b9f2ba2021bba8ba7bf13",
+      "size": 248263,
+      "minAppVersion": "0.9.23",
+      "dependencies": [],
+      "releaseNotes": "A scan's screenshot loads without holding up the app. Works with Dev Scenario 0.9.23 and later.",
+      "publishedAt": "2026-11-20T09:07:01.434328845Z"
+    },
     {
       "id": "artifactory",
       "name": "Artifactory",
