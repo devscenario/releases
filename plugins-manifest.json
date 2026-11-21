@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T18:06:50Z",
+  "updatedAt": "2026-11-21T11:31:44Z",
   "plugins": [
+    {
+      "id": "network",
+      "name": "Network",
+      "version": "1.3.22",
+      "description": "Network logs and mock response tools via in-app interceptor.",
+      "category": "NETWORK",
+      "icon": "🌐",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-network-v1.3.22/plugin-network-1.3.22.jar",
+      "sha256": "7cf5e3ad406d8df250ae024daccde9f148a7f147a9f171206ce3bd240fa05946",
+      "size": 1324914,
+      "minAppVersion": "0.9.27",
+      "dependencies": [],
+      "releaseNotes": "The Rules list shows each rule's URL under its host instead of its name (the name is in the tooltip). JSON bodies fold, and the rule preview is resizable with its headers below the body. Mock bodies, stream events and response headers take relative dates such as {{now+5m}}, with |http for Expires and Last-Modified; Dev Scenario 0.9.30 and later fill them in. Works with Dev Scenario 0.9.27 and later.",
+      "publishedAt": "2026-11-21T11:27:11.091728170Z"
+    },
     {
       "id": "mcp",
       "name": "AI Assistant",
