@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T11:31:44Z",
+  "updatedAt": "2026-11-21T16:32:06Z",
   "plugins": [
+    {
+      "id": "mcp",
+      "name": "AI Assistant",
+      "version": "0.9.11",
+      "description": "An in-app AI assistant, plus an MCP server for Claude Code, Copilot CLI, Codex and Gemini CLI: inspect devices and write, run and triage E2E flows.",
+      "category": "INTEGRATIONS",
+      "icon": "🤖",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-mcp-v0.9.11/plugin-mcp-0.9.11.jar",
+      "sha256": "1fc64528b2a6a3ed4cdefc83f0477d2c90409bea442b7cb7559e28fa02f6a76e",
+      "size": 1091860,
+      "minAppVersion": "0.9.31",
+      "dependencies": [],
+      "releaseNotes": "The command reference agents read shows that pinchIn and pinchOut take an optional element or point. Works with Dev Scenario 0.9.31 and later.",
+      "publishedAt": "2026-11-21T16:28:28.005583238Z"
+    },
+    {
+      "id": "zephyr",
+      "name": "Zephyr",
+      "version": "1.0.10",
+      "description": "Send scenario results to Zephyr Scale test cycles, from this computer and from CI.",
+      "category": "TESTING",
+      "icon": "🧪",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-zephyr-v1.0.10/plugin-zephyr-1.0.10.jar",
+      "sha256": "2078bf5e32507053fcb1bbc2dac03a024eb7d6489d4a1b95a37c1049f97223d3",
+      "size": 612852,
+      "minAppVersion": "0.9.19",
+      "dependencies": [],
+      "releaseNotes": "Send results › Suite runs sends suite runs only. Works with Dev Scenario 0.9.19 and later.",
+      "publishedAt": "2026-11-21T16:27:07.494662231Z"
+    },
     {
       "id": "network",
       "name": "Network",
