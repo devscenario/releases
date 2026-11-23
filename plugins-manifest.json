@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T19:36:52Z",
+  "updatedAt": "2026-11-23T14:16:12Z",
   "plugins": [
+    {
+      "id": "network",
+      "name": "Network",
+      "version": "1.3.24",
+      "description": "Network logs and mock response tools via in-app interceptor.",
+      "category": "NETWORK",
+      "icon": "NETWORK",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-network-v1.3.24/plugin-network-1.3.24.jar",
+      "sha256": "b49119d9ded29a8ab120fd5821c5574e4a248ede3e4445ca9baddff7e930bf0a",
+      "size": 1177454,
+      "minAppVersion": "0.9.32",
+      "dependencies": [],
+      "releaseNotes": "A live stream's events and WebSocket messages that are JSON are now colour-highlighted. Bodies like [DONE] or [INFO] … are no longer re-indented as JSON or reported as cut short. Works with Dev Scenario 0.9.32 and later.",
+      "publishedAt": "2026-11-23T14:12:03.076408632Z"
+    },
+    {
+      "id": "accessibility",
+      "name": "Accessibility",
+      "version": "1.2.12",
+      "description": "WCAG 2.1 compliance scanner with visual overlay and score reporting.",
+      "category": "TESTING",
+      "icon": "ACCESSIBILITY",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-accessibility-v1.2.12/plugin-accessibility-1.2.12.jar",
+      "sha256": "0dfee6104a9a7052a07e8d350cbfea07ad44e1382a47113e165cfb77f8700944",
+      "size": 266823,
+      "minAppVersion": "0.9.32",
+      "dependencies": [],
+      "releaseNotes": "Clear history now says it deletes every saved pipeline report, including runs History doesn't list. Works with Dev Scenario 0.9.32 and later.",
+      "publishedAt": "2026-11-23T14:10:17.172665988Z"
+    },
     {
       "id": "network",
       "name": "Network",
