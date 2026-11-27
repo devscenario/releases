@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T19:43:45Z",
+  "updatedAt": "2026-11-27T05:40:20Z",
   "plugins": [
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "version": "1.2.13",
+      "description": "Firebase App Distribution, Remote Config and Crashlytics.",
+      "category": "FIREBASE",
+      "icon": "FIREBASE",
+      "jarUrl": "https://github.com/devscenario/releases/releases/download/plugin-firebase-v1.2.13/plugin-firebase-1.2.13.jar",
+      "sha256": "aa51f031578645d8553e826b863e58229a767a60c66d7dae6af4b29804d84a30",
+      "size": 592620,
+      "minAppVersion": "0.9.32",
+      "dependencies": [],
+      "releaseNotes": "Firebase requests are quicker: the plugin signs in to Google once and reuses it until shortly before it expires. If Setup's saved settings can't be read, the file is now kept aside instead of being overwritten on the next save. Opening a project no longer freezes the app for a moment while the plugin reads the service account key. Works with Dev Scenario 0.9.32 and later.",
+      "publishedAt": "2026-11-27T05:27:59.599147044Z"
+    },
     {
       "id": "mcp",
       "name": "AI Assistant",
